@@ -1,0 +1,615 @@
+/* =============================================================================
+   Base
+   ========================================================================== */
+
+body { 
+	font-family: 'Oxygen', sans-serif;
+	/*font-family:"PT Sans Regular", 'Arial Unicode', 'Lucida Sans Unicode', Arial, sans-serif; font-size-adjust:0.5; font-weight:normal; font-style:normal;
+*/
+}
+
+/* 
+-- 
+Font face 
+-- 
+*/
+
+@font-face {
+    font-family: 'entyporegular';
+    src: url('/font/entypo-webfont.eot');
+    src: url('/font/entypo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/font/entypo-webfont.woff') format('woff'),
+         url('/font/entypo-webfont.ttf') format('truetype'),
+         url('/font/entypo-webfont.svg#entyporegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'entypo_socialregular';
+    src: url('/font/entypo-social-webfont.eot');
+    src: url('/font/entypo-social-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/font/entypo-social-webfont.woff') format('woff'),
+         url('/font/entypo-social-webfont.ttf') format('truetype'),
+         url('/font/entypo-social-webfont.svg#entypo_socialregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/* =============================================================================
+   Header
+   ========================================================================== */
+
+#banner { 	 }
+
+/* Fixed Topbar Navigation */
+body.top-navbar { 
+				padding-top: 60px; 
+			
+			
+}
+body.admin-bar .navbar-fixed-top { top: 28px; }
+
+
+.navbar-inner {
+	background: #444;
+}
+
+
+/* =============================================================================
+   Content
+   ========================================================================== */
+
+#content { 
+
+
+	font-size: 120%;
+	
+
+}
+
+.socialIcons {
+	 font-family: 'entypo_socialregular';
+}
+
+.icons {
+		    font-family: 'entyporegular';
+}
+
+h1 {
+
+	font-size: 200%;
+	color: #DE7C00;
+	line-height: 1.1em;
+	
+	
+}
+
+
+h2 {
+	font-size: 130%;
+	margin-bottom:10px;
+	
+}
+
+.listing-page h2 {
+	margin-bottom:0px;
+}
+
+p {
+	line-height:1.7em;
+	font-size:110%;
+}
+
+.entry-title {
+	
+}
+
+
+.entry-meta
+{
+
+	color:#999;
+	
+	
+}
+
+.excerpt-author {
+	padding-bottom:20px;
+	margin:20px 0;
+	border-bottom: 1px dotted #ddd;
+}
+
+
+
+
+.excerpt-author p {
+	
+}
+
+.byline {
+	display: inline!important;
+}
+
+time {
+	display:inline!important;
+}
+
+iframe {
+	margin-bottom: 20px;
+}
+
+#respond {
+	border-top: 1px solid #ddd;
+	margin-top:  20px;
+	padding-top: 10px;
+}
+
+
+.entry-content p:first-child {
+    
+}
+
+#content li {
+	line-height:1.8em;
+	font-size:110%;
+	margin-left: 50px;
+	padding-left: 15px;
+}
+
+
+/* comments */
+
+#comments {
+	margin-top:  20px;
+	padding:10px 0;
+	border-top: 1px solid #ddd;
+}
+.comment p {
+	clear: left;
+}
+
+#comments h3 {
+	margin-bottom: 20px;
+}
+
+#comments li {
+	margin-left: 0px;
+	border-bottom: 1px solid #ddd;
+	padding-top: 20px;
+	
+}
+
+
+
+blockquote {
+	margin: 20px 0 20px 0;
+	line-height:1.8em;
+	color: #888;
+	border:none;
+
+	padding-left:10px;
+	border-left: 1px solid #DE7C00;
+	
+	
+	
+}
+
+/*links */
+
+a	{
+	color: #DE7C00;
+	text-decoration:none;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+
+img.alignnone {
+	margin-bottom: 20px;
+}
+
+/* =============================================================================
+   Primary Content
+   ========================================================================== */
+
+#main { }
+
+.cat-image {
+	margin-top: 20px;
+	margin-bottom:15px;
+}
+.cat-description p{
+	font-weight: bold;
+}
+
+/* =============================================================================
+   Sidebar
+   ========================================================================== */
+
+#sidebar .homepageImage{
+	float: none;
+	display:inline;
+	clear: both;
+	width: 100%;
+	margin: 10px 0;
+ }
+
+#sidebar {
+	font-size: 90%;
+}
+
+#sidebar {
+	
+	
+	}
+
+#sidebar {
+	float: right;
+	clear: none;
+	display:block;
+	border: 1ps solid red;
+}
+
+.hacked {
+	margin-left:0!important;
+}
+#sidebar widget-1 p{
+	
+}
+
+#sidebar h3 {
+	font-family: 'Pacifico', 'Lucida Sans';
+	padding-bottom: 20px;
+	font-size: 1.8em;
+	
+	}
+
+
+
+
+/* =============================================================================
+   Posts
+   ========================================================================== */
+
+.hentry header { }
+.hentry h2 a { text-decoration: none; }
+.hentry time { display: block; }
+.hentry p.byline { }
+.hentry footer { clear: both; }
+
+
+#content ul {
+	margin: 0.6em 0;
+	padding: 0;
+}
+
+#content li {
+	margin: 0 0 0 0;
+	margin-left: 20px;
+	padding: 0 0 0 0;
+}
+
+/* =============================================================================
+   Post Comments
+   ========================================================================== */
+
+#comments, #respond, #submit { clear: both; display: block; }
+ol.commentlist img.avatar { float: left; margin-right: 10px; }
+
+
+/* =============================================================================
+   homepage
+   ========================================================================== */
+
+h1.homepage-header {
+	font-family: 'Pacifico', 'Lucida Sans';
+	padding-bottom: 20px;
+	font-size: 4.4em;
+	
+	}
+	
+.constrict {
+	letter-spacing: -10px; 
+	
+}	
+.constrictJ {
+	letter-spacing: -20px; 
+	
+}	
+
+
+.homepageImage {
+	padding:8px;
+	background:#eee;
+	border:1px solid #ddd;
+	float:right;
+	margin-left: 5px;
+}
+
+/* =============================================================================
+   Footer
+   ========================================================================== */
+
+#XrecentList {
+	margin-top: 20px;
+	font-style: italic;
+}
+
+#XrecentList p{
+	line-height:150%;
+	font-size: 110%;
+	font-weight: normal;
+	float: left;
+	padding: 0;
+	margin: 0;
+	font-size: 100%;
+	
+}
+
+#XrecentList li{
+	padding: 0;
+	margin: 0 0 0 10px;
+	display:inline;
+	float:left;
+	
+}
+
+#XrecentList ul {
+	padding: 0;
+	margin: 0;
+}
+
+#content-info {
+  
+}
+
+#content-info p small { font-size: 13px; }
+
+
+#footer-container {
+	width:100%;
+	background: #eee;
+	padding:0 0 20px 0;
+	margin-top: 20px;
+	border-top: 1px solid #e5e5e5;
+}
+
+.latest-tweet {
+	text-align:left;
+	font-size: 1.4em;
+	margin:0px 0 20px 0px;
+	color: #777;
+	min-height:80px;
+	line-height:20%!important;
+
+	
+}
+
+.latest-tweet img {
+	display:inline;
+	float: left;
+	margin: 8px 12px 0 0;
+
+
+}
+
+.latest-tweet a{
+	color:#777;
+	
+}
+
+.widget-inner h3{
+	margin-bottom:5px;
+}
+
+.widget-inner li {
+	margin:0 0 5px 0;
+	padding: 0 0 0 0;
+	font-size: 110%;
+	
+}
+
+.widget-inner ul {
+	padding: 0 0 0 0;
+	margin:0 0px 0 0;
+	list-style-type: none;
+	
+}
+
+footer a{
+	color:#777;
+	
+	
+}
+
+footer h3 a{
+	color: #DE7C00;
+}
+
+footer p{
+	margin-top:20px;
+	
+	
+}
+
+.now-playing img{
+	margin: 0 3px 3px 0;
+}
+
+.now-playing {
+	margin: 50px 0px 0 0;
+}
+
+
+
+footer h3 {
+	font-weight: normal;
+	font-size: 120%;
+}
+
+/* sidebar 
+*/
+
+
+
+
+/* =============================================================================
+   WordPress Generated Classes
+   See: http://codex.wordpress.org/CSS#WordPress_Generated_Classes
+   ========================================================================== */
+
+.aligncenter { display: block; margin: 0 auto; }
+.alignleft { margin: 0 20px 20px 0; float: left; }
+.alignright { margin: 0 0 20px 20px; float: right; }
+
+figure.alignnone { margin-left: 0; margin-right: 0; }
+
+
+
+/* =============================================================================
+   Media Queries
+   ========================================================================== */
+
+@media (max-width: 979px) {
+  /* Fix top padding when using the responsive grid with the fixed topbar */
+  body.top-navbar {
+    padding-top: 0;
+  }
+  
+ 
+  
+  h1 {
+  		font-size: 150%;
+  		
+  		
+  	}
+  
+  	h1.homepage-header {
+  	
+  		font-size: 250%!important;
+  	
+  	}
+}
+
+footer {
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: -20px; /*bootstrap adds 20px padding to body element which means the footer now isn't flush*/
+	margin-right: -20px;
+}
+
+
+#footer-container {
+
+	margin-left: -20px; /*bootstrap adds 20px padding to body element which means the footer now isn't flush*/
+	margin-right: -20px;
+}
+
+
+
+/* mobile */
+
+@media screen and (max-width:480px)
+{
+
+
+	h1 {
+		font-size: 150%;
+		
+		
+	}
+
+	h1.homepage-header {
+	
+		font-size: 250%!important;
+	
+	}
+.homepageImage {
+	padding: 0;
+	margin-bottom: 20px;
+}
+
+	h2 {
+		font-size: 120% ;
+		
+		
+	}
+
+#content li {
+		margin-left: 0;
+	}
+
+}
+
+footer {
+	padding-left: 10px;
+	padding-right: 10px;
+
+}
+#footer-container {
+	padding: 0 20px;
+	margin-left: -20px; /*bootstrap adds 20px padding to body element which means the footer now isn't flush*/
+	margin-right: -20px;
+}
+
+
+
+/*
+Video
+*/
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	margin-bottom:30px;
+	height: 0;
+	overflow: hidden;
+}
+
+.video-container iframe,  
+.video-container object,  
+.video-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+video {
+	max-width: 100%;
+	height: auto;
+}
+
+
+
+
+
+/* for slideshare */
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16/9 ratio */
+    padding-top: 30px; /* IE6 workaround*/
+    height: 0;
+    overflow: hidden;
+    margin:20px 0 20px 0;
+}
+iframe,
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
